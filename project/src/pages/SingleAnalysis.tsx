@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Upload, Activity, RefreshCw, Loader2 } from 'lucide-react';
-import * as XLSX from 'xlsx';
+declare const XLSX: any;
 
 interface EyeAnalysis {
     disease: string;
