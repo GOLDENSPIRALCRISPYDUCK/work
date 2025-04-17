@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Upload, Activity, RefreshCw, Loader2 } from 'lucide-react';
-import * as XLSX from 'xlsx';
+const XLSX = await import('https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js');
 
 interface EyeAnalysis {
     disease: string;
