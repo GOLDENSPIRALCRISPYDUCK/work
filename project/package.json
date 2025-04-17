@@ -1,13 +1,4 @@
 {
-  "name": "your-project-name",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
-  },
   "dependencies": {
     "pdfjs-dist": "^5.0.375",
     "react-pdf": "^9.2.1",
@@ -15,8 +6,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "vite-plugin-copy": "^0.1.6",
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.0"
+    "vite-plugin-copy": "^0.1.6"
   }
 }
